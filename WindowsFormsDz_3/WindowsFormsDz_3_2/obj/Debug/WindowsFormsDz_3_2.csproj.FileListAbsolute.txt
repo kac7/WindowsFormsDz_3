@@ -1,0 +1,10 @@
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\bin\Debug\WindowsFormsDz_3_2.exe.config
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\bin\Debug\WindowsFormsDz_3_2.exe
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\bin\Debug\WindowsFormsDz_3_2.pdb
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.csprojResolveAssemblyReference.cache
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.Form1.resources
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.Properties.Resources.resources
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.csproj.GenerateResource.Cache
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.exe
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.pdb
+E:\ItStep\WindowsFormsDz_3\WindowsFormsDz_3_2\obj\Debug\WindowsFormsDz_3_2.Form2.resources
