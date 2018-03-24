@@ -21,7 +21,8 @@ namespace WindowsFormsDz_3_3
     //изменения отображаются в TextBox первой формы.
     public partial class Form1 : Form
     {
-        public string TextBox_ReadFile {
+        public string TextBox_ReadFile
+        {
             get { return textBoxReadFile.Text; }
             set { textBoxReadFile.Text = value; }
         }
@@ -30,7 +31,7 @@ namespace WindowsFormsDz_3_3
             InitializeComponent();
             btnUpload.Click += FileUpload_Click;
             btnEdit.Click += FileEdit_Click;
-            
+            TextBox_ReadFile = "";
         }
         private void FileEdit_Click(object sender, EventArgs e)
         {
@@ -45,7 +46,7 @@ namespace WindowsFormsDz_3_3
             file.FilterIndex = 2;
             if (file.ShowDialog() == DialogResult.OK)
             {
-                StreamReader reader = File.OpenText(file.FileName);
+                StreamReader reader = new StreamReader(file.FileName, Encoding.Default);
                 textBoxReadFile.Clear();
                 textBoxReadFile.Text = reader.ReadToEnd();
                 reader.Close();

@@ -38,7 +38,7 @@ namespace WindowsFormsDz_3_3
             save.FilterIndex = 2;
             if (save.ShowDialog() == DialogResult.OK)
             {
-                StreamWriter writer = new StreamWriter(save.FileName);
+                StreamWriter writer = new StreamWriter(save.FileName, false, Encoding.Default);
                 writer.Write(textBoxWriterFile.Text);
                 writer.Close();
             }
